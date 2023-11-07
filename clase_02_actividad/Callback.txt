@@ -1,0 +1,2 @@
+El tercer parámetro es una función independiente que se llama dentro de la funcion que suma.
+Una función callback lo que hace es llamar a otra función como parámetro, de forma independiente a que función sea y se completa la acción cuando esta es invacada. 
