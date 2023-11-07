@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="holder">
+      <section class="calculadora">
+        <h2>A calcular</h2>
+        <section class="numeros">
+          <input
+            type="number"
+            id="num1"
+            autofocus
+            placeholder="primer número"
+          />
+          <input
+            type="number"
+            id="num2"
+            autofocus
+            placeholder="segundo número"
+          />
+        </section>
+        <section class="operaciones">
+          <button id="suma">SUMAR</button>
+          <button id="resta">RESTAR</button>
+          <button id="multiplica">MULTIPLICAR</button>
+          <button id="divide">DIVIDIR</button>
+        </section>
+        <section class="resultado">
+          <p>Resultado</p>
+          <textarea name="" id="resultado"  cols="20" rows="1"></textarea>
+        </section>
+      </section>
+    </main>
+    <script src="calculadora.js"></script>
+  </body>
+</html>

@@ -1,0 +1,72 @@
+:root {
+  --primary-color: #ddd;
+  --secondary-color: rgb(107, 107, 107);
+  --tertiary-color: rgb(56, 56, 56);
+  --text-color-primary: rgb(0, 0, 0);
+  --text-color-secondary: rgb(202, 201, 201);
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: var(--primary-color);
+}
+
+.holder {
+  max-width: 450px;
+  margin: 20px auto;
+  box-sizing: border-box;
+}
+.calculadora {
+  display: flex;
+  /* border: 2px solid red; */
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+  gap: 24px;
+  padding: 25px;
+}
+
+.calculadora h2{
+    margin: 0;
+}
+
+.numeros {
+  display: flex;
+  /* border: 2px solid red; */
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+  gap: 24px;
+}
+
+.numeros input{
+    height: 25px;
+    border-radius: 5px;
+    outline: none;
+    border: 0;
+    text-align: center;
+    font-weight: bolder;
+}
+
+
+.operaciones button{
+    height: 30px;
+    border-radius: 5px;
+    border: 0;
+    /* font-weight: bolder; */
+}
+
+.resultado{
+    font-weight: bold;
+}
+.resultado textarea{
+    resize: none;
+    font-size: 20px;
+    color: rgb(141, 27, 27);
+    font-weight: bold;
+    text-align: center;
+}
